@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+body{
+    font-family:'Montserrat', 'Noto Sans KR', sans-serif;
+    background-color: #fff;
+    color: white;
+}
+html,body {height: 100%;}
+.page {
+    width:100%;
+    height: 4000px;
+}
+/* =======================================================================
+
+main-page                    
+
+======================================================================= */
+.a {
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* =======================================================================
+
+sub-page                    
+
+======================================================================= */
+.b {
+    background-image: url(../images/sub.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

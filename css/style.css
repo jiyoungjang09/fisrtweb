@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+body {
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+    background-color: rgba(227, 227, 227, .2);
+}
+html, body{
+        height:100%;
+        margin:0;
+}		
+.fullpage{
+    height:100%;
+}
+.display-table{
+    width: 100%;
+    height: 100%;
+}
+/* =====================================
+               header
+===================================== */
+
+.gnb .main-txt{padding: 65px 0 0 0;}
+.gnb h3{
+    width: 190px;
+    padding: 0 0 10px 0;
+    border-bottom: 5px solid rgba(48, 57, 96, 1);
+    margin: 0 0 20px 420px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+.gnb{height: auto;}
+.content{padding-bottom: 60px;}
+.gnb li{
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 225px;
+    margin-left: 420px;
+}
+.gnb li img{width: 100%;}
+.item-hover {
+    background-color: rgba(35, 38, 82, .72);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:100%;
+    left: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+.item-hover p {
+    position: relative;
+    top:300px;
+    transition: all 1s;
+    -webkit-transition: all 1s ease-in-out;
+       -moz-transition: all 1s ease-in-out;
+         -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+}
+.gnb li:hover .item-hover {top:0;}
+.gnb li:hover .item-hover p {top:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

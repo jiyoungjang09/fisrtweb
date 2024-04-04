@@ -1,0 +1,809 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+body{
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+    background-color: #fff;
+}
+/* =====================================
+               header
+===================================== */
+
+/*----- mobile -----*/
+.header-mobile{
+    width: 100%;
+    padding: 36px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header-mobile nav{
+    position: relative;
+}
+.header-mobile .nav-btn-left{
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-mobile .nav-btn-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-mobile .logo{width: 135px;}
+@media(min-width:768px){
+    .header-mobile{display: none;}
+}
+/*----- desktop -----*/
+.header-desktop{display: none;}
+.header-desktop nav{
+    padding: 61.5px 10px;
+    position: relative;
+    text-align: center;
+}
+.logo-desktop{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.nav-desktop1{
+    text-align: center;
+}
+.nav-desktop2{
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+.nav-desktop1 li{
+   display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+@media(min-width:768px){ 
+    .header-desktop {
+        display: block;
+        box-sizing: border-box;
+    }
+}
+/* =====================================
+               main-mobile
+===================================== */
+.main-mobile{
+    position: relative;
+    width: 100%;
+    padding: 0 10px 100px 10px;
+    box-sizing: border-box; 
+}
+.main-mobile .main-m{width: 100%;}
+/* =====================================
+               main-desk
+===================================== */
+.main-desk{display: none;}
+.main-desk .main-img .main-d{
+    width: 100%;
+}
+.main-desk-t{
+    position: relative;
+    padding: 270px 0 0 0;
+}
+.main-desk-t .name{
+        color: black;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: -0.04em;
+        margin-bottom: 15px;
+}
+.main-desk-t h2{
+        color: black;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: -0.04em;
+        padding: 12px 0;
+        margin-bottom: 20px;
+}
+.main-desk-t h2 .a{
+    display: inline-block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.main-desk-t h2 span{font-size: 38px;}
+.main-desk-t .undername{
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.04em;
+    margin: 0 0 215px 0;
+}
+.main-desk .main-desk-t img{
+    display: inline-block;
+    /*border: 2px solid yellow;*/
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+@media(min-width:768px){
+    .main-desk{display: block;}
+    .main-mobile{display: none;}
+}
+/* =====================================
+               fragrance
+===================================== */
+.fragrance{
+    text-align: center;
+}
+.fragrance .fragrance-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.04em;
+}
+.fragrance h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.66;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+}
+.fragrance h2 .a{
+    display: inline-block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.fragrance h2 .b{
+    font-size: 23px;
+}
+.fragrance h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.66;
+    letter-spacing: -0.04em;
+    margin-bottom: 30px;
+}
+.fragrance .fragrance-cont{
+    color: 767575;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.66;
+    letter-spacing: -0.05em;
+    margin-bottom: 58px;
+}
+@media(min-width:768px){
+    .fragrance .fragrance-title{display: none;}
+}
+@media(min-width:768px){
+    .fragrance{
+        padding: 0 10px;
+        margin-top: 154px;
+        text-align: center;
+        margin-bottom: 56px;
+        box-sizing: border-box;
+    }
+    .fragrance h2{
+        padding: 12px 0;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 0.96;
+        letter-spacing: -0.04em;
+    }
+    .fragrance h2 .a{
+        display: inline-block;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 15px 0;
+    }
+    .fragrance h2 .b{font-size: 30px;}
+    .fragrance h3{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.04em;
+    }
+    .fragrance p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.04em;
+    }
+}
+/* =====================================
+            fragrance-wrap
+===================================== */
+.fragrance-wrap-mobile{
+    width: 100%;
+    text-align: center;
+    /*padding: 0 85px;*/
+}
+.fragrance-wrap-mobile{
+    width: 100%;
+}
+.second-mobile{
+    text-align: center;
+    box-sizing: border-box;
+}
+.second-mobile h2{
+    padding: 50px 0 20px 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+.second-mobile p{
+    color: 817f7f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+.second-mobile .text-wrap{
+    padding: 15px 0 30px 0;
+}
+.second-mobile .text-wrap h3{
+    padding: 0 0 15px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+.second-mobile .text-wrap2{
+    padding: 15px 0 30px 0;
+}
+.second-mobile .text-wrap2 h3{
+    padding: 0 0 15px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+.second-mobile .text-wrap3{
+    padding: 15px 0 30px 0;
+}
+.second-mobile .text-wrap3 h3{
+    padding: 0 0 15px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+@media(min-width:768px){
+    .fragrance-wrap-mobile{display: none;}
+    .second-mobile{display: none;}
+}
+
+.fragrance-wrap-desktop{display: none;}
+ .fragrance-wrap-desktop{
+    margin-bottom: 114px;
+}
+.fragrance-wrap-desktop .second-img{
+    display: inline-block;
+    text-align: center;
+}
+.fragrance-wrap-desktop .second h2{
+    /*border: 2px solid green;*/
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    margin: 106px 0 20px 14px;
+}
+.fragrance-wrap-desktop .second .fragrance1{
+    margin-bottom: 39px;
+}
+.fragrance-wrap-desktop .second .text-wrap{
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: 33px;
+}
+.fragrance-wrap-desktop .second .fragrance1 h3{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.fragrance-wrap-desktop .second .fragrance1 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+.fragrance-wrap-desktop .second .fragrance2{
+    margin-bottom: 39px;
+}
+.fragrance-wrap-desktop .second .text-wrap2{
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: 33px;
+}
+.fragrance-wrap-desktop .second .fragrance2 h3{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.fragrance-wrap-desktop .second .fragrance2 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+.fragrance-wrap-desktop .second .text-wrap3{
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: 33px;
+}
+.fragrance-wrap-desktop .second .fragrance3 h3{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.fragrance-wrap-desktop .second .fragrance3 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+@media(min-width:768px){
+    .fragrance-wrap-desktop{display: block;}
+}
+/* =====================================
+          shop-collection-sec
+===================================== */
+.shop{
+    text-align: center;
+    margin-bottom: 50px;
+    display: none;
+}
+.shop h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.shop p{
+    color: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    padding: 15px 0 50px 0;
+}
+.shop-wrap{
+    width: 860px;
+    margin-bottom: 60px;
+}
+.shop-wrap li{
+    box-sizing: border-box;
+    padding: 0 10px;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.shop-wrap li img{
+    padding: 0 0 30px 0;
+} 
+.shop-wrap .collection1 h3{
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.shop-wrap .collection1 h4{
+    color: rgba(51, 51, 51, .6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    text-align: right;
+}
+.shop-wrap .collection1 h4 span{
+    margin-left: 15px;
+}
+.shop-wrap .collection2 h3{
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.shop-wrap .collection2 h4{
+    color: rgba(51, 51, 51, .6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    text-align: right;
+}
+.shop-wrap .collection2 h4 .shop-span{
+    margin-left: 15px;
+}
+.shop-wrap .collection3 h3{
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.shop-wrap .collection3 h4{
+    color: rgba(51, 51, 51, .6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    text-align: right;
+}
+.shop-wrap .collection3 h4 span{
+    margin-left: 15px;
+}
+.shop-wrap .collection4 h3{
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.shop-wrap .collection4 h4{
+    color: rgba(51, 51, 51, .6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    text-align: right;
+}
+.shop-wrap .collection4 h4 span{
+    margin-left: 15px;
+}
+@media(min-width:768px){
+    .shop{
+        display: block;
+    }
+}
+/* =====================================
+            third-sec
+===================================== */
+.third-wrap{
+    padding: 0 10px;
+}
+.third-sec-mobile{
+    text-align: center;
+    width: 100%;
+    height: 529px;
+    background-image: url(../imgs/images/third.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.third-sec-desktop{
+    background-image: url(../imgs/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    overflow: hidden;
+}
+.third-sec-desktop .third-txt{
+    text-align: center;
+    padding-top: 110px;
+}
+.third-sec-desktop .third-txt h2{
+    color: rgba(0, 0, 0);
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    margin-bottom: 30px;
+}
+.third-sec-desktop .third-txt h2 span{
+    font-size: 38px;
+}
+.third-sec-desktop .third-txt P{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    margin-bottom: 15px;
+}
+.third-sec-desktop .img{
+    text-align: center;
+    margin-top: 60px;   
+}
+.third-sec-desktop{display: none;}
+@media(min-width:768px){
+    .third-sec-desktop{
+        display: block;
+    }
+    .third-sec-mobile{
+        display: none;
+    }
+}
+/* =====================================
+              gift-finder
+===================================== */
+.gift-finder-mobile{
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 105px;
+}
+.gift-finder-mobile h3{
+    padding: 0 0 20px 0;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.gift-finder-mobile .gift-cont1{
+    /*border: 1px solid yellow;*/
+    margin-bottom: 40px;
+    color: #767575;
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+}
+.gift-finder-mobile .gift-cont1 span{
+    display: inline-block;
+    margin-top: 10px;
+}
+/* 마진이안먹어요*/
+.gift-finder-mobile .gift-cont2{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.05em; 
+}
+@media(min-width:768px){
+    .gift-finder-mobile{display: none;}
+}
+.gift-finder-desktop{display: none;}
+.gift-finder-desktop{
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+.gift-finder-desktop h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    margin-bottom: 15px;
+}
+.gift-finder-desktop .gift-cont1{
+    color: #767575;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.03em; 
+    margin-bottom: 20px;
+} 
+.gift-finder-desktop .gift-cont2{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+}
+@media(min-width:768px){
+    .gift-finder-desktop{display: block;}
+}
+ 
+/* =====================================
+               gift-wrap
+===================================== */
+.gift-wrap{
+    /*border: 2px solid blue;*/
+    box-sizing: border-box;
+    max-width: 1260px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.gift-wrap li{
+    /*height: 350px;*/
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 10px;
+    position: relative;
+}
+/*모바일일때 마진 탑 넣어주고 이미지 다시 자르고 데스크일때 마진 0으로 넣어주기*/
+.gift-wrap .gift1 .img{padding: 0 0 0 20px;}
+/*.gift-wrap .gift2,
+.gift-wrap .gift3 {margin: 50px 0 0 0;}*/
+.gift-wrap .gift3 {margin: 50px 0 0 0;}
+.gift-wrap h3{
+    /*border: 2px solid lime;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+    padding: 20px 0;
+}
+.gift-wrap .img{width: 100%;}
+.gift-wrap .gift-btn1 .btn-nomal{
+    /*border: 4px solid red;*/
+    box-sizing: border-box;
+    opacity: 1;
+    transform: all 1s;
+    position: absolute;
+}
+.gift-wrap .gift-btn1 .btn-hover{
+    opacity: 0;
+    transform: all 0.5s;
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+.gift-btn1:hover .btn-nomal {opacity: 0;}
+.gift-btn1:hover .btn-hover {opacity: 1;}
+
+.gift-wrap .gift2 .gift-btn2 .btn-nomal{
+    box-sizing: border-box;
+    opacity: 1;
+    position: absolute;
+}
+.gift-wrap .gift-btn2 .btn-hover{
+    opacity: 0;
+    transform: all 0.5s;
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+.gift-btn2:hover .btn-nomal {opacity: 0;}
+.gift-btn2:hover .btn-hover {opacity: 1;}
+
+.gift-wrap .gift3 .gift-btn3 .btn-nomal{
+    box-sizing: border-box;
+    opacity: 1;
+    position: absolute;
+}
+.gift-wrap .gift-btn3 .btn-hover{
+    opacity: 0;
+    transform: all 0.5s;
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+.gift-btn3:hover .btn-nomal {opacity: 0;}
+.gift-btn3:hover .btn-hover {opacity: 1;}
+
+@media(min-width:768px){
+    .gift-wrap{margin-bottom: 139px;}
+    .gift-wrap .gift3{margin: 0;}
+}
+/* =====================================
+               last
+===================================== */
+.last-mobile{
+    background-image: url(../imgs/images/last.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 250px 0;
+}
+.last-mobile .last-logo{
+    text-align: center;
+}
+@media(min-width:768px){
+    .last-mobile{display: none;}
+}
+.last-desk{display: none;}
+.last-desk{
+    background-image: url(../imgs/last-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 500px 0;
+}
+.last-desk .last-logo{
+    text-align: center;
+}
+@media(min-width:768px){
+    .last-desk{display: block;}
+}
+
+/* =====================================
+               footer
+===================================== */
+.footer-wrap-mobile{
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.footer-wrap-mobile .footer-cont img{
+    margin-bottom: 20px;  
+}
+.footer-wrap-mobile h3{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.footer-wrap-mobile h3 span{margin-left: 20px;}
+.footer-wrap-mobile p{
+    margin-bottom: 10px;
+    color: 6d6d6d;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.025em; 
+}
+.footer-wrap-mobile p span{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+@media(min-width:768px){
+    .footer-wrap-mobile{
+        display: none;
+    }
+}
+.footer-wrap-desk{display: none;}
+.footer-wrap-desk {
+    margin-top: 90px;
+    margin-bottom: 51px;
+    text-align: center;
+}
+.footer-wrap-desk .footer-cont h3{
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+}
+.footer-wrap-desk .footer-cont .span1{margin-left: 20px;}
+.footer-wrap-desk .footer-cont span{margin-right: 20px;}
+.footer-wrap-desk .footer-cont p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    margin-bottom: 20px;
+}
+.footer-wrap-desk .footer-cont p span{margin-left: 10px;}
+.footer-wrap-desk .footer-icon{
+    text-align: right;
+    margin-top: 10px;
+}
+.footer-wrap-desk .footer-icon img{padding: 0 0 0 7px;}
+
+@media(min-width:768px){
+    .footer-wrap-desk{display: block;}
+}
+
+
+
+
+
+
+
+
